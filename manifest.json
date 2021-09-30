@@ -1,0 +1,6 @@
+{
+  "name": "STRL Dev",
+  "description": "Chrome Extension to make the life of STRL devs easier.",
+  "version": "1.0",
+  "manifest_version": 3
+}
