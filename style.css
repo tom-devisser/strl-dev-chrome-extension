@@ -1,0 +1,35 @@
+body {
+	width: 200px;
+	font-size: 0.875rem;
+	background-color: #1b264a;
+}
+
+p, a, h1, li {
+	color: #fff;
+}
+
+main {
+	padding: 1rem;
+}
+
+h1 {
+	margin: 0;
+}
+
+ul {
+	margin: 1rem 0;
+	padding-left: 1rem;
+}
+
+li {
+	padding: 0.2rem 0;
+}
+
+.btn {
+	padding: 0.6rem 1.2rem;
+	background-color: #3dde96;
+	display: inline-block;
+	margin-top: 0.6rem;
+	text-decoration: none;
+	border-radius: 5rem;
+}
