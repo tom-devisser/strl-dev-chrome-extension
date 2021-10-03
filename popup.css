@@ -1,6 +1,8 @@
 body {
 	background-color: #1c2550;
+	color: white;
 	font-family: 'Ubuntu', sans-serif;
+	width: fit-content;
 }
 
 .btn {
@@ -16,4 +18,5 @@ body {
 
 .link-wrapper {
 	padding: 6px;
+	width: max-content;
 }
