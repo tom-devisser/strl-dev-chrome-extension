@@ -18,10 +18,10 @@ $( function() {
 	} )
 
 	$( '#save-urls' ).click( function() {
-		let devUrl = $( '#dev-url' ).val();
-		let xdUrl = $( '#xd-url' ).val();
-		let trelloInternUrl = $( '#trello-i-url' ).val();
-		let trelloExternUrl = $( '#trello-e-url' ).val();
+		let devUrl        = $( '#dev-url' ).val(),
+			xdUrl           = $( '#xd-url' ).val(),
+			trelloInternUrl = $( '#trello-i-url' ).val(),
+			trelloExternUrl = $( '#trello-e-url' ).val();
 
 		if ( devUrl ) {
 			chrome.storage.sync.set( {
