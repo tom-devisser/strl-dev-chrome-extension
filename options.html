@@ -2,12 +2,18 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="options.css">
 	</head>
 	<body>
+
+		<p>Enter URL's starting with <span class="bold">https://</span> and ending with a <span class="bold">/</span>.</p>
 		<label for="dev-url">Current dev URL</label>
-		<input id="dev-url" type="text" name="dev-url">
+		<input id="dev-url" type="url" name="dev-url">
 		<label for="xd-url">Adobe XD URL</label>
-		<input id="xd-url" type="text" name="xd-url">
+		<input id="xd-url" type="url" name="xd-url">
 		<input id="save-urls" type="submit" name="save-urls" value="Save URLs">
 
 		<script src="jquery.min.js"></script>

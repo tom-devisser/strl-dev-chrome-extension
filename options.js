@@ -17,7 +17,7 @@ $( function() {
 				'xdUrl': xdUrl,
 			},
 			function() {
-				close();
+				alert( 'New URL\'s saved' );
 			} );
 		}
 	} );

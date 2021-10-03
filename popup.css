@@ -1,0 +1,19 @@
+body {
+	background-color: #1c2550;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+	background-color: #38dc86;
+	border-radius: 24px;
+	color: #fff;
+	display: none;
+	margin: 6px 0;
+	padding: 6px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.link-wrapper {
+	padding: 6px;
+}
